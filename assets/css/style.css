@@ -325,11 +325,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.g-4, .gy-4{
+  margin-top: -60px;
+}
 #hero {
   width: 100%;
-  height: 70vh;
-  background: #ee7843;
-  margin: 72px 0 -72px 0;
+  height: 950px;
+  background-image: url("../img/herobg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 #hero h1 {
